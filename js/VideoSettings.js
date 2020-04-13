@@ -26,10 +26,10 @@ page.style.setProperty('--size--','auto');
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 var element = document.getElementById('text');
 if (isMobile) {
-    element.innerHTML = "You are using Mobile";
+    // element.innerHTML = "You are using Mobile";
     page.style.setProperty('--size--','300px');
 } else {
-  element.innerHTML = "You are using Desktop";
+  // element.innerHTML = "You are using Desktop";
   page.style.setProperty('--size--','auto');
 }
 
