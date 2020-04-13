@@ -147,12 +147,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: rgb(10, 190, 70);
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #80d858;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -184,9 +184,10 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../imagesDan/background.webp");
-   -webkit-filter: grayscale(55%); 
-  filter: grayscale(55%); 
+  
+  background-image: url("../imagesDan/DanAndVan.jpg");
+   /* -webkit-filter: grayscale(55%); 
+  filter: grayscale(55%);  */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
